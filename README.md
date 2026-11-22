@@ -75,4 +75,4 @@ Python · CSV · Mermaid · inventário de dados · mapeamento de fluxo de dados
 
 ## 👤 Autor
 
-**Newton Giovanni** · Economista e Analista de Dados Estratégicos · [LinkedIn](https://www.linkedin.com/in/newton-giovanni/)
+**Newton Giovanni** · Economista e Analista de Dados Estratégicos · [LinkedIn](https://www.linkedin.com/in/newton-giovanni/) · [Portfólio](https://github.com/newgiovanni0833)
