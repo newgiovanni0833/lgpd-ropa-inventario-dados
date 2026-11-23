@@ -114,8 +114,7 @@ def gerar_relatorio(linhas, resultado) -> str:
             continue
         out.append(f"### {ido} — {nomes.get(ido, '')}")
         for s, msg in sorted(achados):
-            icone = "🔴" if s == CRITICO else "🟡"
-            out.append(f"- {icone} **{s}:** {msg}")
+            out.append(f"- **{s}:** {msg}")
         out.append("")
     return "\n".join(out) + "\n"
 

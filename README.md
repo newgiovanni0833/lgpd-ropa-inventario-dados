@@ -1,10 +1,10 @@
-# 🔐 ROPA e Inventário de Dados Pessoais
+# ROPA e Inventário de Dados Pessoais
 
 Kit prático para construir o **Registro das Operações de Tratamento de Dados Pessoais (ROPA)** de uma organização, com foco em **processo, infraestrutura e segurança da informação**.
 
-> ⚠️ **Dados fictícios.** A organização "Instituto Horizonte" e todos os registros deste repositório são inventados para demonstração. A metodologia é a que aplico em projetos reais.
+> **Dados fictícios.** A organização "Instituto Horizonte" e todos os registros deste repositório são inventados para demonstração. A metodologia é a que aplico em projetos reais.
 
-## 🎯 Problema de negócio
+## Problema de negócio
 
 Nenhuma organização consegue proteger dados que não sabe que tem. Antes de qualquer controle técnico, é preciso responder, para cada atividade:
 
@@ -15,7 +15,7 @@ Nenhuma organização consegue proteger dados que não sabe que tem. Antes de qu
 
 O ROPA é o inventário que responde a essas perguntas. Este repositório traz o método, os modelos e um validador automático.
 
-## 🧭 Método em 5 etapas
+## Método em 5 etapas
 
 ```mermaid
 flowchart LR
@@ -32,7 +32,7 @@ flowchart LR
 4. **Plano de ação.** As lacunas são devolvidas às áreas em um relatório por responsável.
 5. **Manutenção.** Todo novo processo, sistema ou painel de BI passa pelo mesmo registro antes de entrar em produção.
 
-## 📁 Estrutura
+## Estrutura
 
 ```text
 ├── templates/
@@ -47,7 +47,7 @@ flowchart LR
     └── validar_ropa.py                        # validador de completude e risco
 ```
 
-## ▶️ Como usar
+## Como usar
 
 Requer apenas Python 3.9+ (biblioteca padrão).
 
@@ -57,7 +57,7 @@ python scripts/validar_ropa.py dados_exemplo/ropa_exemplo.csv
 
 O script imprime um resumo e grava `relatorio_validacao.md` com os apontamentos por operação e por área. O código de saída é `1` quando há apontamento crítico, o que permite usá-lo em uma esteira de CI.
 
-## 📊 O que o validador verifica
+## O que o validador verifica
 
 | Regra | Severidade |
 |---|---|
@@ -69,10 +69,10 @@ O script imprime um resumo e grava `relatorio_validacao.md` com os apontamentos 
 | Transferência internacional sem país informado | Atenção |
 | Hipótese de tratamento fora da lista padronizada | Atenção |
 
-## 🛠️ Tecnologias e metodologias
+## Tecnologias e metodologias
 
 Python · CSV · Mermaid · inventário de dados · mapeamento de fluxo de dados · política de guarda e descarte · privacy by design
 
-## 👤 Autor
+## Autor
 
 **Newton Giovanni** · Economista e Analista de Dados Estratégicos · [LinkedIn](https://www.linkedin.com/in/newton-giovanni/) · [Portfólio](https://github.com/newgiovanni0833)

@@ -25,7 +25,7 @@ flowchart LR
     end
 
     subgraph Saída externa
-        E1[Plataforma de certificados<br/>🌎 fora do Brasil]
+        E1[Plataforma de certificados<br/> fora do Brasil]
         E2[Banco pagador]
         E3[Contabilidade]
     end

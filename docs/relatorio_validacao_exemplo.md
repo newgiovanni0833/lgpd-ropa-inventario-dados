@@ -18,18 +18,18 @@
 ## Apontamentos por operação
 
 ### OP-005 — Controle de ponto
-- 🔴 **Crítico:** Dado sensível sem medida de segurança descrita
+- **Crítico:** Dado sensível sem medida de segurança descrita
 
 ### OP-007 — Recrutamento e seleção
-- 🟡 **Atenção:** Forma de descarte não informada
-- 🟡 **Atenção:** Prazo de guarda indefinido
+- **Atenção:** Forma de descarte não informada
+- **Atenção:** Prazo de guarda indefinido
 
 ### OP-008 — Envio de newsletter
-- 🟡 **Atenção:** Transferência internacional sem país de destino
+- **Atenção:** Transferência internacional sem país de destino
 
 ### OP-009 — Cobertura fotográfica de eventos
-- 🔴 **Crítico:** Compartilhamento externo sem destinatário ou operador identificado
+- **Crítico:** Compartilhamento externo sem destinatário ou operador identificado
 
 ### OP-014 — Atendimento ao público
-- 🟡 **Atenção:** Hipótese de tratamento fora da lista padronizada: "Atendimento ao cliente"
+- **Atenção:** Hipótese de tratamento fora da lista padronizada: "Atendimento ao cliente"
 
